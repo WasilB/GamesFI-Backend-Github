@@ -1,0 +1,131 @@
+.flex-box-footer {
+  flex-direction: row;
+  display: flex;
+  z-index: 10;
+}
+.right {
+  text-align: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding-left: 1000px;
+  margin-right: 250px;
+}
+.right div a {
+  margin: 10px;
+}
+
+.com {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.res {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.leg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.left {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img {
+  text-align: right;
+}
+.links {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+.links img {
+  margin: 10px;
+}
+.copy {
+  text-align: end;
+  color: white;
+  font-size: 20px;
+}
+
+.mainF {
+  background-color: rgb(21, 1, 44);
+  width: 100%;
+}
+#des:hover {
+  color: rgb(45, 33, 216);
+}
+@media only screen and (max-width: 700px) {
+  .mainF {
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .flex-box-footer {
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .footer-coloum-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
+  }
+  .footer-coloum-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
+  }
+  .footer-coloum-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
+  }
+  #leg {
+    text-align: center;
+  }
+  .copy {
+    text-align: center;
+    bottom: 0;
+    right: 0;
+  }
+}

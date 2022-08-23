@@ -1,0 +1,148 @@
+.slider {
+  text-align: center;
+  border: solid darkorchid;
+  flex-direction: row;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  height: 500px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 5;
+}
+.slide-1 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border: solid darkorchid;
+  flex-wrap: wrap;
+}
+
+.slide-2 {
+  border: solid darkorchid;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  font-size: 20px;
+}
+.slide-3 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border: solid darkorchid;
+  flex-wrap: wrap;
+
+  font-size: 20px;
+}
+.slide-4 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border: solid darkorchid;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.main {
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section {
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.play {
+  color: white;
+  font-size: 30px;
+}
+
+.swiper-slide {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+#swipe {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+}
+
+#g1 {
+  background-color: darkorchid;
+  border: solid darkorchid;
+  color: white;
+  font-size: 10px;
+  width: 150px;
+  height: 40px;
+}
+
+#g2 {
+  background-color: darkorchid;
+  border: solid darkorchid;
+  color: white;
+  font-size: 10px;
+  width: 150px;
+  height: 40px;
+}
+#g3 {
+  background-color: darkorchid;
+  border: solid darkorchid;
+  color: white;
+  font-size: 10px;
+  width: 150px;
+  height: 40px;
+}
+#g4 {
+  background-color: darkorchid;
+  border: solid darkorchid;
+  color: white;
+  font-size: 10px;
+  width: 150px;
+  height: 40px;
+}
+
+body {
+  z-index: 5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: 100;
+    position: absolute;
+  }
+}

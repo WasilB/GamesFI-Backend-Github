@@ -1,0 +1,23 @@
+db.userData.insertMany([
+    {
+      id: 1,
+      name: "Wasil",
+      email: "opface25@gmail.com",
+      password: "wasil",
+      status: "Active"
+    },
+    {
+      id: 2,
+      name: "Lix",
+      email: "lix@gmail.com",
+      password: "lix",
+      status: "Active"
+    },
+    {
+      id: 3,
+      name: "shaheer",
+      email: "shaheer@gmail.com",
+      password: "shaheer",
+      status: "Active"
+    }
+  ])

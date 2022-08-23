@@ -1,0 +1,146 @@
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  background-color: rgb(21, 1, 44);
+  width: 100%;
+  z-index: 10;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.icon {
+  text-align: left;
+  background-color: transparent;
+  flex-wrap: wrap;
+}
+.flex-box-header {
+  text-align: center;
+  display: flex;
+  padding: 1px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+
+#list {
+  text-align: center;
+  display: flex;
+  flex: 0.5;
+  flex-direction: row;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: transparent;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 1.5em;
+  flex-wrap: wrap;
+}
+#list:hover {
+  color: rgb(45, 33, 216);
+}
+
+.flex-box-buttons {
+  display: flex;
+  text-align: right;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 30px;
+}
+#login {
+  height: 50px;
+  width: 75px;
+  background-color: black;
+  border: solid darkorchid;
+  color: darkorchid;
+
+  width: 100px;
+  height: 50px;
+}
+#login:hover {
+  background-color: white;
+}
+
+#login:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#log {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+#sign-up {
+  height: 50px;
+  width: 75px;
+  justify-content: space-around;
+
+  background-color: darkorchid;
+  border: solid darkorchid;
+  color: white;
+
+  width: 100px;
+  height: 50px;
+}
+#sign {
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+#sign-up:hover {
+  background-color: black;
+}
+
+#sign-up:active {
+  background-color: darkorchid;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#drop {
+  text-align: right;
+  width: 50px;
+  margin-left: 20px;
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  #mainM {
+    width: 100%;
+    position: absolute;
+
+    top: 75px;
+    right: 0;
+
+    z-index: 2;
+    padding: 10px 20px;
+  }
+  #drop {
+    display: block;
+    cursor: pointer;
+    background-position: center;
+  }
+  #drop {
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  #list {
+    display: none;
+  }
+  .container-1 {
+    width: auto;
+  }
+  .flex-box-buttons {
+    width: auto;
+  }
+}
